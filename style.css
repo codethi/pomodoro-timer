@@ -1,6 +1,6 @@
-input:focus {
-   box-shadow: 0 0 0 0 !important;
-   outline: 0 !important;
+*{
+   padding: 0;
+   margin: 0;
 }
 
 input{
@@ -10,33 +10,32 @@ input{
    text-align: center !important;
 }
 
-
-#timer{
-   display: none !important;
-   
-}
-
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+   -webkit-appearance: none;
+   margin: 0;
 }
+
 input[type="number"] {
-    -moz-appearance: textfield;
+   -moz-appearance: none;
 }
 
 .time{
-   color: #ffffff;
+   color: #fff;
    text-align: center;
    width: 20rem;
    height: 20rem;
    border-radius: 10rem;
-   display: flex ;
-   justify-content: center ;
-   align-items: center ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    margin: auto !important;
 }
 
 h2{
    font-size: 90pt;
+}
+
+#timer{
+   display: none !important;
 }
